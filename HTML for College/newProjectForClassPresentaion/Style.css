@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main
+{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.5)50%,rgba(0,0,0,0.5)50%),url(image/first.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1200px;
+    height: 85px;
+    margin: auto;
+}
+.icon
+{
+    width: 200px;
+    float: left;
+    height: 80px;
+}
+.logo
+{
+    color:rgb(85, 238, 43);
+    font-size: 34px;
+    font-family: Arial;
+    padding-left: 10px;
+    float: left;
+    padding-top: 15px;
+
+}
+.menu
+{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul
+{
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ul li{
+    list-style:none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 18px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover
+{
+    color: rgb(73, 240, 75);
+}
+.search
+{
+    width: 330px;
+    float:left;
+    margin-left: 270px;
+}
+.srch{
+font-family:'Times New Roman';
+width: 200px;
+height: 40px;
+background: transparent;
+border: 2px solid rgb(86, 216, 88);
+margin-top: 13px;
+color: #fff;
+border-right: none;
+font-size: 17px;
+float: left;
+padding: 10px;
+border-bottom-left-radius: 5px;
+border-top-left-radius: 5px;
+}
+.btn
+{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(111, 220, 113);
+    border:2px solid rgb(111, 220, 113);
+    margin-top: 13px;
+    color:#fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus
+{
+    outline: none;
+
+}
+.srch:focus
+{
+    outline: none;
+}
+.content
+{
+    
+    width: 300px;
+    height: auto;
+    margin: 50px;
+    margin-top: 200px;
+    margin-left: 80px;
+    color:  rgb(88, 222, 88);
+    position: relative;
+}
+.content .par
+{
+    width: 400px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    line-height: 25px;
+}
+.content h1
+{
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    padding-left: 20px;
+    color: #fff;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.content .cn
+{
+    width: 160px;
+    height: 40px;
+    background:rgb(82, 237, 92);
+    border:none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.content.cn a{
+text-decoration: none;
+color: rgb(200, 193, 193);
+transition: .3s ease;
+}
+.cn:hover
+{
+    background-color:rgb(255, 255, 255);
+}
+.content span
+{
+    color: rgb(153, 25, 25);
+    font-size: 60px;
+    
+}
+.form
+{
+    width: 260px;
+    height: 310px;
+    background: linear-gradient(to top, rgba(210, 219, 207, 0.8)50%,rgba(211, 224, 208, 0.8)50%);
+    position: absolute;
+    top: -40px;
+    left: 840px;
+    padding: 25px;
+    border-radius: 10px;
+}
+.form h2
+{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(80, 234, 60);
+    font-size: 22px;
+    background-color: rgb(4, 2, 2);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input
+{
+    width:240px;
+    height: 30px;
+    background: transparent;
+    border-bottom: 1px solid rgb(80, 244, 75);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(18, 12, 12);
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    font-family: sans-serif;
+}
+.font input:focus
+{
+    outline: none;
+}
+::placeholder
+{
+    color: #fff;
+    font-family: Arial;
+}
+.btnn
+{
+    width: 240px;
+    height: 40px;
+    background: rgb(58, 244, 74);
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover
+{
+    background: #fff;
+    color: rgb(31, 196, 67);
+}
+.btnn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.font .link
+{
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+.liw
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+.icon a
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.icons ion-icon
+{
+    color:rgb(0, 0, 0);
+    font-size: 25px;
+    padding-left: 17px;
+    padding-top: 3px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover
+{
+    color:rgb(25, 210, 80);
+
+}
